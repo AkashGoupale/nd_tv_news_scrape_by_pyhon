@@ -34,7 +34,7 @@ def nd_tv(a):
                 date=i.find("span",class_="posted-by").text
                 p=date.split("|")
                 g=p[1].split(",")
-                j=g[0]+","+g[1][0:4]
+                j=g[0]+","+g[1][0:5]
                 data["date"]=j
                 all_data.append(data)    
             except:
